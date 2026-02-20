@@ -6,4 +6,7 @@ out
 *.log*
 archive.zip
 arch*
+# Ignore architecture.md and atc-scenario.html
+architecture.md
+atc-scenario.html
 

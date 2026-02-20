@@ -26,7 +26,6 @@ export default defineConfig({
     },
     plugins: [
       react({
-        fastRefresh: true,
         jsxRuntime: 'automatic'
       }),
       tailwindcss()
@@ -36,7 +35,9 @@ export default defineConfig({
         usePolling: false,
         interval: 100
       },
-      hmr: true
+      hmr: {
+        overlay: true
+      }
     }
   }
 })
